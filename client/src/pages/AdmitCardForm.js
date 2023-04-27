@@ -14,7 +14,7 @@ function AdmitCardForm() {
           <form
             class="card-form"
             method="post"
-            action="https://admitcard.onrender.com:7500/api/contact"
+            action="http://localhost:7500/api/contact"
           >
             <div class="input">
               <input type="text" class="input-field" name="name" required />
