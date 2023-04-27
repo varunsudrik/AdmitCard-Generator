@@ -89,7 +89,7 @@ app.get("/api/contact/:fileName", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.send("Server Working");
+  res.status(200).send("Server Working");
 });
 
 // Start server
