@@ -58,10 +58,10 @@ app.post("/api/contact", async (req, res) => {
       `<html><body><h1>Admit Card: </h1>
       <p>Name: ${newAdmit.name}</p>
       <p>Phone Number: ${newAdmit.phoneNumber}</p>
-      <p>Phone Number: ${newAdmit.school}</p>
-      <p>Phone Number: ${newAdmit.clas}</p>
-      <p>Phone Number: ${newAdmit.roll_number}</p>
-      <p>Phone Number: ${newAdmit.address}</p>
+      <p>School: ${newAdmit.school}</p>
+      <p>Class: ${newAdmit.clas}</p>
+      <p>Roll Number: ${newAdmit.roll_number}</p>
+      <p>Address: ${newAdmit.address}</p>
       </body></html>`
     );
     const pdfBuffer = await page.pdf({ format: "A4" });

@@ -22,7 +22,7 @@ function AdmitCardForm() {
             </div>
             <div class="input">
               <input
-                type="text"
+                type="number"
                 class="input-field"
                 name="phoneNumber"
                 required
